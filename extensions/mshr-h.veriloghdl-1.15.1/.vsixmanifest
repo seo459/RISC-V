@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+		<Metadata>
+			<Identity Language="en-US" Id="veriloghdl" Version="1.15.1" Publisher="mshr-h" />
+			<DisplayName>Verilog-HDL/SystemVerilog/Bluespec SystemVerilog</DisplayName>
+			<Description xml:space="preserve">Verilog-HDL/SystemVerilog/Bluespec SystemVerilog support for VS Code</Description>
+			<Tags>snippet,verilog,Verilog,__ext_v,__ext_vh,__ext_vl,systemverilog,System Verilog,__ext_sv,__ext_svh,__ext_SV,bsv,BluespecSystemVerilog,Bluespec SystemVerilog,BSV,__ext_bsv,__ext_BSV,vhdl,VHDL,__ext_vhd,__ext_vhdl,__ext_vho,ucf,vivado ucf,ucf constraints,__ext_ucf,sdc,Synopsys Design Constraints,__ext_sdc,tcl,Tcl,__ext_tcl,__ext_tm,__ext_tk,xdc,Xilinx Design Constraints,__ext_xdc,verilog-filelist,Verilog Filelist,__ext_f</Tags>
+			<Categories>Programming Languages,Snippets,Linters,Formatters</Categories>
+			<GalleryFlags>Public</GalleryFlags>
+			
+			<Properties>
+				<Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.75.0" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
+				<Property Id="Microsoft.VisualStudio.Code.ExtensionKind" Value="workspace" />
+				<Property Id="Microsoft.VisualStudio.Code.LocalizedLanguages" Value="" />
+				
+				
+				<Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/mshr-h/vscode-verilog-hdl-support.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/mshr-h/vscode-verilog-hdl-support.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/mshr-h/vscode-verilog-hdl-support.git" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Support" Value="https://github.com/mshr-h/vscode-verilog-hdl-support/issues" />
+				<Property Id="Microsoft.VisualStudio.Services.Links.Learn" Value="https://github.com/mshr-h/vscode-verilog-hdl-support" />
+				
+				
+				<Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
+				<Property Id="Microsoft.VisualStudio.Services.Content.Pricing" Value="Free"/>
+
+				
+				
+			</Properties>
+			<License>extension/LICENSE.txt</License>
+			<Icon>extension/images/icon.png</Icon>
+		</Metadata>
+		<Installation>
+			<InstallationTarget Id="Microsoft.VisualStudio.Code"/>
+		</Installation>
+		<Dependencies/>
+		<Assets>
+			<Asset Type="Microsoft.VisualStudio.Code.Manifest" Path="extension/package.json" Addressable="true" />
+			<Asset Type="Microsoft.VisualStudio.Services.Content.Details" Path="extension/README.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Content.Changelog" Path="extension/CHANGELOG.md" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Content.License" Path="extension/LICENSE.txt" Addressable="true" />
+<Asset Type="Microsoft.VisualStudio.Services.Icons.Default" Path="extension/images/icon.png" Addressable="true" />
+		</Assets>
+	</PackageManifest>
