@@ -13,5 +13,5 @@ module BTB #
     output wire [ADDR_WIDTH - 1 : 0] PC_out // branch target address
 );
     // 2-way associative BTB cache structure.
-    assign [BRANCH_PC - 1 : BRANCH_PC - TAG_WIDTH] 
+    assign [BRANCH_PC - 1 : BRANCH_PC - TAG_WIDTH] aa;
 endmodule
